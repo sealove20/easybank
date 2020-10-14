@@ -1,25 +1,14 @@
 import React from 'react';
 
+import Header from './components/Header';
+import Main from './components/Main';
+
 
 function App() {
   return (
     <>
-      Home
-      About
-      Contact
-      Blog
-      Careers
-  
-      Request Invite
-  
-  
-  
-      Next generation digital banking
-  
-      Take your financial life online. Your Easybank account will be a one-stop-shop 
-      for spending, saving, budgeting, investing, and much more.
-  
-      Request Invite
+      <Header />
+      <Main />
   
   
   

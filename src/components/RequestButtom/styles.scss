@@ -1,0 +1,14 @@
+@import '../../styles/Colors/neutral.scss';
+
+.request-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(49,211,92,1) 65%, rgba(43,183,218,1) 85%);
+  height: 45px;
+  width: 175px;
+  border-radius: 50px;
+  color: $white;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+@import '../../styles/Colors/neutral.scss';
+@import '../../styles/Colors/primary.scss';
+
+.section {
+  display: flex;
+  background: url('../../assets/images/bg-intro-desktop.svg') $light-grayish-blue no-repeat; 
+  background-position: 1000px -230px;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.card__title {
+  font-size: 45px;
+  font-weight: 400;
+  max-width: 450px;
+  height: 80px;
+  color: $dark-blue;
+}
+
+.card__text {
+  max-width: 450px;
+  color: $grayish-blue;
+  margin: 25px 0;
+}
+
+.card__button {
+  align-self: flex-start;
+  margin-left: 70px;
+}
+
+
+.mockups {
+  position: relative;
+  left: 650px;
+  top: -50px;
+}
