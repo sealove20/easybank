@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header';
 import Main from './components/Main';
+import About from './components/About';
 
 
 function App() {
@@ -9,17 +10,7 @@ function App() {
     <>
       <Header />
       <Main />
-  
-  
-  
-      Why choose Easybank?
-  
-      We leverage Open Banking to turn your bank account into your financial hub. Control 
-      your finances like never before.
-  
-      Online Banking
-      Our modern web and mobile applications allow you to keep track of your finances 
-      wherever you are in the world.
+      <About />
   
       Simple Budgeting
       See exactly where your money goes each month. Receive notifications when you’re 
