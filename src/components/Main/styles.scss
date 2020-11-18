@@ -3,10 +3,10 @@
 
 .main {
   display: flex;
-  background: url('../../assets/images/bg-intro-desktop.svg') $light-grayish-blue no-repeat; 
+  background: url('../../assets/images/bg-intro-desktop.svg') $very-light-gray no-repeat; 
   background-position: 1000px -230px;
   background-size: cover;
-  height: 80vh;
+  height: 65vh;
 }
 
 .card {
@@ -35,7 +35,6 @@
   align-self: flex-start;
   margin-left: 70px;
 }
-
 
 .mockups {
   position: absolute;
