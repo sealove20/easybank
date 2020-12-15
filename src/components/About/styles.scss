@@ -2,14 +2,16 @@
 @import '../../styles/Colors/primary.scss';
 
 .about {
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
   width: 100%;
   background-color: $light-grayish-blue;
 }
 
 .about__tittle_container {
   width: 70%;
-  margin: 7% auto;
 }
 
 .about__tittle {

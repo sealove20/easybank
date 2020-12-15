@@ -4,7 +4,7 @@ import { ReactSVG } from 'react-svg'
 import RequestButton from '../RequestButtom';
 import './styles.scss';
 
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/headerlogo.svg'
 
 export default function Header() {
   return (
