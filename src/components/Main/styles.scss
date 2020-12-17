@@ -3,20 +3,18 @@
 
 .main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: url('../../assets/images/bg-intro-desktop.svg') $very-light-gray no-repeat scroll; 
-  // background-position: 700px -300px;
   background-size: 1200px 1000px;
   background-position-y: -250px;
   background-position-x: 45vw;
   height: 90vh;
+  width: 100%;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
+  width: 70%;
 }
 
 .card__title {
@@ -28,14 +26,9 @@
 }
 
 .card__text {
-  max-width: 450px;
+  max-width: 410px;
   color: $grayish-blue;
   margin: 60px 0 35px 0;
-}
-
-.card__button {
-  align-self: flex-start;
-  margin-left: 70px;
 }
 
 .mockups {

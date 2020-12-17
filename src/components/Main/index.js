@@ -14,11 +14,9 @@ export default function Main() {
           for spending, saving, budgeting, investing, and much more.
         </p>
 
-        <RequestButton buttonStyle="card__button" />
+        <RequestButton />
       </section>
-      <section className="card__image">
-        <img src={mockups} alt="mobile mockup" className="mockups" /> 
-      </section>
+      <img src={mockups} alt="mobile mockup" className="mockups" /> 
     </main>
   )
 }
