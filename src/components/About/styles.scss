@@ -1,0 +1,34 @@
+@import '../../styles/Colors/neutral.scss';
+@import '../../styles/Colors/primary.scss';
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  background-color: $light-grayish-blue;
+}
+
+.about__tittle_container {
+  width: 70%;
+}
+
+.about__tittle {
+  font-size: 40px;
+  font-weight: normal;
+  color: $dark-blue;
+}
+
+.about__text {
+  color: $grayish-blue;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+
+.about__card__container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}

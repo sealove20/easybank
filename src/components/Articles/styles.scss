@@ -1,0 +1,27 @@
+@import '../../styles/Colors/neutral.scss';
+@import '../../styles/Colors/primary.scss';
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: $very-light-gray;
+}
+
+.article__tittle {
+  width: 70%;
+  font-size: 40px;
+  font-weight: normal;
+  color: $dark-blue;
+  padding-top: 65px;
+}
+
+.article__cards__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-top: 45px;
+}

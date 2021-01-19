@@ -1,20 +1,20 @@
 @import '../../styles/Colors/neutral.scss';
 @import '../../styles/Colors/primary.scss';
 
-.section {
+.main {
   display: flex;
-  background: url('../../assets/images/bg-intro-desktop.svg') $light-grayish-blue no-repeat; 
-  background-position: 1000px -230px;
-  background-size: cover;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/images/bg-intro-desktop.svg') $very-light-gray no-repeat scroll; 
+  background-size: 1200px 1000px;
+  background-position-y: -250px;
+  background-position-x: 45vw;
+  height: 80vh;
+  width: 100%;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
+  width: 70%;
 }
 
 .card__title {
@@ -26,19 +26,16 @@
 }
 
 .card__text {
-  max-width: 450px;
+  max-width: 410px;
   color: $grayish-blue;
-  margin: 25px 0;
+  margin: 60px 0 35px 0;
 }
-
-.card__button {
-  align-self: flex-start;
-  margin-left: 70px;
-}
-
 
 .mockups {
-  position: relative;
-  left: 650px;
-  top: -50px;
+  height: 1100px;
+  width: 900px;
+  position: absolute;
+  right: -125px;
+  top: -55px;
+  z-index: 1;
 }
