@@ -5,10 +5,14 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background: linear-gradient(50deg, rgba(49,211,92,1) 65%, rgba(43,183,218,1) 85%);
+  background: linear-gradient(75deg, rgba(49,211,92,1) 35%, rgba(43,183,218,1) 85%);
   height: 45px;
   width: 175px;
   border-radius: 50px;
   color: $white;
   font-weight: bold;
+}
+
+.request-button:hover {
+  opacity: 0.7;
 }
