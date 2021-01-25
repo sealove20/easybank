@@ -1,0 +1,19 @@
+@import '../../styles/Colors/neutral.scss';
+
+.back_to_top_button {
+  background: linear-gradient(125deg, rgba(49,211,92,1) 35%, rgba(43,183,218,1) 85%);
+  height: 45px;
+  width: 70px;
+  border-radius: 5px;
+  border:none;
+  color: $white;
+  font-weight: bold;
+  position: fixed;
+  right: 25px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.back_to_top_button:hover {
+  opacity: 0.7;
+}

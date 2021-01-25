@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ReactSVG } from 'react-svg'
+import { Link } from 'react-scroll';
 
 import RequestButton from '../RequestButtom';
 import BurguerMenu from './components/BurguerMenu';
@@ -22,11 +23,61 @@ export default function Header() {
             : <BurguerMenu menuStyle="nav__hamburguer_button" setIsOpen={setIsOpen} isOpen={isOpen} /> }
           <Menu isOpen={isOpen} />
           <ul className="nav">
-            <li className="nav__item">Home</li>
-            <li className="nav__item">About</li>
-            <li className="nav__item">Contact</li>
-            <li className="nav__item">Blog</li>
-            <li className="nav__item">Careers</li>
+            <Link               
+              className="nav__item"   
+              activeClass="active"
+              to="section-main"
+              spy
+              smooth
+              offset={-70}
+              duration={700}
+            >
+              Home
+            </Link>
+            <Link
+              className="nav__item"   
+              activeClass="active"
+              to="section-about"
+              spy
+              smooth
+              offset={-70}
+              duration={700}
+            >
+              About
+            </Link>
+            <Link               
+              className="nav__item"   
+              activeClass="active"
+              to="section-footer"
+              spy
+              smooth
+              offset={-70}
+              duration={700}
+            >
+              Contact
+            </Link>
+            <Link               
+              className="nav__item"   
+              activeClass="active"
+              to="section-articles"
+              spy
+              smooth
+              offset={-70}
+              duration={700}
+            >
+              Blog
+            </Link>
+            <Link               
+              className="nav__item"   
+              activeClass="active"
+              to="section-footer"
+              spy
+              smooth
+              offset={-70}
+              duration={700}
+            >
+              Careers
+            </Link>
           </ul>
         </nav>
         <RequestButton buttonStyle="nav__request_button" />

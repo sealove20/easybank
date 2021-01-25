@@ -6,7 +6,7 @@ import './styles.scss';
 
 export default function Main() {
   return (
-    <main className="main">
+    <main className="main" id="section-main">
       <section className="card">
         <h1 className="card__title">Next generation digital banking</h1>
         <p className="card__text">

@@ -11,7 +11,7 @@ import confetti from '../../assets/images/image-confetti.jpg';
 
 export default function Articles() {
   return (
-    <article className="article">
+    <article className="article" id="section-articles">
       <h2 className="article__tittle">Latest Articles</h2>
       <div className="article__cards__container">
         <Article 

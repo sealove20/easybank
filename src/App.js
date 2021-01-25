@@ -5,6 +5,7 @@ import Main from './components/Main';
 import About from './components/About';
 import Articles from './components/Articles';
 import Footer from './components/Footer';
+import BackToTopButton from './components/BackToTopButton';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="overflow">
       <Header />
       <Main />
+      <BackToTopButton />
       <About />
       <Articles />
       <Footer />

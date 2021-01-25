@@ -12,7 +12,7 @@ import { ReactComponent as Youtube } from '../../assets/images/icon-youtube.svg'
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="section-footer">
       <div className="footer__container">
         <section className="footer__left__container">
           <div className="footer__images__container">

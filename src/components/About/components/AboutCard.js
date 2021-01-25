@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './styles.scss';
 
-export default function AboutCard({ cardImage, cardTittle, cardText }) {
+function AboutCard({ cardImage = '', cardTittle, cardText }) {
   return (
     <section className="about__card">
       <img src={cardImage} alt="icon with a hand holding plastics" />
@@ -15,5 +16,19 @@ export default function AboutCard({ cardImage, cardTittle, cardText }) {
     </section>
   );
 };
+
+AboutCard.defaultProps = {
+  cardImage: '',
+  cardTittle: '',
+  cardText: '',
+}
+
+AboutCard.propTypes = {
+  cardImage: PropTypes.string,
+  cardTittle: PropTypes.string,
+  cardText: PropTypes.string,
+}
+
+export default AboutCard;
 
 

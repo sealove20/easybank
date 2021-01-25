@@ -10,7 +10,7 @@ import './styles.scss';
 
 export default function About() {
   return (
-    <article className="about">
+    <article className="about" id="section-about">
       <section className="about__tittle_container">
         <h2 className="about__tittle">Why choose Easybank?</h2>
         <p className="about__text">  
