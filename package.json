@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-scrollspy": "^3.4.3",
     "react-svg": "^11.0.43"
   },
   "scripts": {
