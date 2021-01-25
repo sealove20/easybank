@@ -4,11 +4,11 @@ import RequestButton from '../RequestButtom';
 import './styles.scss';
 
 import logo from '../../assets/images/footerlogo.svg';
-import facebook from '../../assets/images/icon-facebook.svg';
-import instagram from '../../assets/images/icon-instagram.svg';
-import twitter from '../../assets/images/icon-twitter.svg';
-import pinterest from '../../assets/images/icon-pinterest.svg';
-import youtube from '../../assets/images/icon-youtube.svg';
+import { ReactComponent as Facebook } from '../../assets/images/icon-facebook.svg';
+import { ReactComponent as Instagram } from '../../assets/images/icon-instagram.svg';
+import { ReactComponent as Twitter } from '../../assets/images/icon-twitter.svg';
+import { ReactComponent as Pinterest } from '../../assets/images/icon-pinterest.svg';
+import { ReactComponent as Youtube } from '../../assets/images/icon-youtube.svg';
 
 export default function Footer() {
   return (
@@ -20,11 +20,11 @@ export default function Footer() {
               <img src={logo} alt="logo" />
             </div>
             <div className="footer__social__container">
-              <img src={facebook} alt="facebook" />
-              <img src={instagram} alt="instagram" />
-              <img src={twitter} alt="twitter" />
-              <img src={pinterest} alt="pinterest" />
-              <img src={youtube} alt="youtube" />
+              <Facebook className="social" />
+              <Instagram className="social" />
+              <Twitter className="social" />
+              <Pinterest className="social" />
+              <Youtube className="social" />
             </div>
           </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
             <p className="footer__text">Contact</p>
             <p className="footer__text">Blog</p>
           </div>
-          <div className="footer__text__left">
+          <div className="footer__text__right">
             <p className="footer__text">Careers</p>
             <p className="footer__text">Support</p>
             <p className="footer__text">Privacy Policy</p>

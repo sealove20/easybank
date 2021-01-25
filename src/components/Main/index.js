@@ -14,7 +14,7 @@ export default function Main() {
           for spending, saving, budgeting, investing, and much more.
         </p>
 
-        <RequestButton />
+        <RequestButton buttonStyle="card__mobile__request_button" />
       </section>
       <img src={mockups} alt="mobile mockup" className="mockups" /> 
     </main>

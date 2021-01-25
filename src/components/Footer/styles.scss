@@ -40,7 +40,19 @@
   color: $white;
 }
 
+.footer__text:hover {
+  cursor: pointer;
+  color: $lime-green;
+}
+
 .footer__text__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.footer__text__right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -64,4 +76,72 @@
 .footer__right__button {
   margin-bottom: 30px;
   align-self: flex-end;
+}
+
+.social {
+  fill: white;
+}
+.social:hover {
+  cursor: pointer;
+  fill: $lime-green;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer {
+    height: 70vh;
+  }
+
+  .footer__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__left__container {
+    display: block;
+    width: 62%;
+    height: 83%;
+  }
+
+  .footer__images__container {
+    justify-content: space-between;
+    align-items: center;
+    height: 17%;
+    padding: 25px 0;
+  }
+  
+  .footer__social__container {
+    width: 68%;
+  }
+
+  .footer__text__left {
+    justify-content: space-between;
+    align-items: center;
+    height: 26%;
+    margin-bottom: 10px;
+  }
+
+  .footer__text__right {
+    justify-content: space-between;
+    align-items: center;
+    height: 26%;
+    margin-top: 18px;
+  }
+
+  .footer__right__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+
+  .footer__right__button {
+    align-self: center;
+  }
+
+  .footer__right__content {
+    padding-bottom: 25px;
+  }
 }

@@ -28,10 +28,19 @@
   height: 100%;
 }
 
+
+
+.nav__close_button {
+  display: none;
+}
+
+.nav__hamburguer_button {
+  display: none;
+}
+
 .nav {
   display: flex;
   list-style-type: none;
-  flex-direction: row;
   height: 100%;
 }
 
@@ -45,4 +54,33 @@
 
 .nav__item:hover {
   border-bottom: 5px solid $lime-green;
+}
+
+@media screen and (max-width: 1040px){
+  .header__container {
+    width: 100%;
+    margin: 0 25px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__close_button {
+    display: block;
+  }
+  
+  .nav__hamburguer_button {
+    display: block;
+  }
+
+  .nav__request_button {
+    display: none;
+  }
 }

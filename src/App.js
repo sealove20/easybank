@@ -9,13 +9,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className="overflow">
       <Header />
       <Main />
       <About />
       <Articles />
       <Footer />
-    </>
+    </div>
   );
 }
 

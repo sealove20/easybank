@@ -6,13 +6,15 @@
   flex-direction: column;
   width: 300px;
   height: 510px;
+  border-radius: 15px;
 }
 
 .article__card__image {
-  height: 250px;
+  height: 100%;
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  cursor: pointer;
 }
 
 .article__card__footer {
@@ -21,6 +23,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .article__card__content {
@@ -39,8 +43,40 @@
   max-width: 250px;
 }
 
+.article__card__tittle:hover {
+  color: $lime-green;
+  cursor: pointer;
+}
+
 .article__card__text {
   max-width: 250px;
   color: $grayish-blue;
   padding: 15px 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .article__card__container {
+    width: 100%;
+    height: 510px;
+    margin-bottom: 25px;
+  }
+
+  .article__card__footer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article__card__content {
+    padding: 0;
+    width: 90%;
+  }
+
+  .article__card__tittle {
+    text-align: left;
+  }
+
+  .article__card__text {
+    max-width: 91%;
+    font-size: 14px;
+  }
 }
